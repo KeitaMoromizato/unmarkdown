@@ -73,7 +73,7 @@ f
 - - -
 `;
       const result = unmarked(test);
-      assert(result === '\na\nb\nc\nd\ne\n');
+      assert(result === '\na\nb\nc\nd\ne\nf\n');
     });
   });
 });
