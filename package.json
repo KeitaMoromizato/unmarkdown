@@ -4,9 +4,9 @@
     "type": "git",
     "url": "https://github.com/KeitaMoromizato/unmarkdown.git"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "un markdown",
-  "main": "index.js",
+  "main": "lib/index.js",
   "files": [
     "lib",
     "src"
