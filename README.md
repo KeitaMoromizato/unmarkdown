@@ -5,13 +5,13 @@ un markdown
 ## Installation
 
 ```
-$ npm install unmarkedown
+$ npm install unmarkdown
 ```
 
 ## Usage
 
 ```
-import unmarkedown form 'unmarkedown';
+import unmarkdown form 'unmarkdown';
 
 const text = `
 # header
@@ -25,7 +25,7 @@ contents
 * list2
 `;
 
-const result = unmarkedown(text);
+const result = unmarkdown(text);
 // result = `
 header
 contents
