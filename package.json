@@ -8,8 +8,7 @@
   "description": "un markdown",
   "main": "lib/index.js",
   "files": [
-    "lib",
-    "src"
+    "lib"
   ],
   "scripts": {
     "build": "babel src --out-dir lib --source-maps",
