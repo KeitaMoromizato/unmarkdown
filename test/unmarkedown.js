@@ -75,5 +75,15 @@ f
       const result = unmarked(test);
       assert(result === '\na\nb\nc\nd\ne\nf\n');
     });
+    
+    it('should delete image', () => {
+      const test = `
+test
+[![](https://example.com/image.jpg)](https://example.com/page)
+test2
+`;
+      const result = unmarked(test);
+      assert(result === '\ntest\ntest2\n');
+    })
   });
 });
